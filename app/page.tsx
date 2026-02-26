@@ -4,7 +4,7 @@ import { useState } from "react"
 import { SiteHeader } from "@/components/site-header"
 import { HeroSection } from "@/components/hero-section"
 import { GamesSection } from "@/components/games-section"
-import { AppsSection } from "@/components/apps-section"
+import { AppsSection } from "@/components/apps-selection"
 import { FilesSection } from "@/components/files-section"
 import { SiteFooter } from "@/components/site-footer"
 

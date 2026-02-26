@@ -8,7 +8,7 @@ const apps = [
     description: "Emulador de PC Baseado em Wine",
     size: "495 MB",
     version: "v2.8.3",
-    image: "https://i.ibb.co/nNFpB350/Background-Eraser-20250909-070627788.png",
+    image: "https://i.ibb.co/LdR58VTd/Winlator-Windows-x86-x64-PC-Emulator-for-Android-2003590736.png",
     downloadUrl: "https://github.com/StevenMXZ/Winlator-Ludashi/releases/"
   },
   {

@@ -8,7 +8,7 @@ const apps = [
     description: "Emulador de PC Baseado em Wine",
     size: "495 MB",
     version: "v2.8.3",
-    image: "/https://static.wikia.nocookie.net/logo_editing/images/5/50/Winlator.webp/revision/latest/thumbnail/width/360/height/360?cb=20260107033101",
+    image: "https://i.ibb.co/nNFpB350/Background-Eraser-20250909-070627788.png",
     downloadUrl: "https://github.com/StevenMXZ/Winlator-Ludashi/releases/"
   },
   {
@@ -17,7 +17,7 @@ const apps = [
     description: "Emulador de PC com mais opções de desempenho incluindo steam",
     size: "186 MB",
     version: "V5",
-    image: "/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmbUkckWgwvzQoSkghgCusPzCFipDkb58ELzvfUfHOPOvF7nLs4YzLvPWr&s=10",
+    image: "https://i.ibb.co/spyFxzxM/IMG-20250819-145541.jpg",
     downloadUrl: "https://gamehub.xiaoji.com/"
   },
   {
@@ -26,7 +26,7 @@ const apps = [
     description: "Aplicativo Para otimizar seu dispositivo usando adb",
     size: "5MB",
     version: "v1.3",
-    image: "/https://i.ibb.co/RTNTz3mP/In-Shot-20260105-184553111.jpg",
+    image: "https://i.ibb.co/RTNTz3mP/In-Shot-20260105-184553111.jpg",
     downloadUrl: "https://github.com/YTDvidPojavBr/VoidX/releases/tag/1.3"
   },
 ]

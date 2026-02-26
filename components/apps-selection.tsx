@@ -43,6 +43,7 @@ export function AppsSection() {
             Ferramentas essenciais para produtividade e criacao
           </p>
         </div>
+
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {apps.map((app) => (
             <AppCard key={app.id} app={app} />
@@ -68,24 +69,36 @@ function AppCard({
           className="object-cover transition-transform duration-300 group-hover:scale-105"
         />
       </div>
+
       <div className="p-4">
         <div className="flex items-start justify-between gap-2">
           <h3 className="font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
             {app.title}
           </h3>
+
           <span className="shrink-0 rounded-md bg-secondary px-2 py-0.5 text-xs text-muted-foreground">
             {app.version}
           </span>
         </div>
+
         <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
           {app.description}
         </p>
+
         <div className="mt-4 flex items-center justify-between">
-          <span className="text-xs text-muted-foreground">{app.size}</span>
-          <button className="flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-80">
+          <span className="text-xs text-muted-foreground">
+            {app.size}
+          </span>
+
+          <a
+            href={app.downloadUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-80"
+          >
             <Download className="h-4 w-4" />
             Download
-          </button>
+          </a>
         </div>
       </div>
     </div>

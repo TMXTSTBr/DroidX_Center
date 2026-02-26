@@ -10,7 +10,7 @@ const games = [
     image: "/images/baldis.jpg",
   },
   {
-]
+]:
 
 export function GamesSection() {
   return (

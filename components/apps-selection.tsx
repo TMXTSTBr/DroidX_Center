@@ -4,35 +4,30 @@ import { Download } from "lucide-react"
 const apps = [
   {
     id: 1,
-    title: "VideoForge Pro",
-    description: "Editor de video profissional com timeline avancada",
-    size: "890 MB",
-    version: "v4.2.1",
-    image: "/images/app-1.jpg",
+    title: "Winlator Ludashi",
+    description: "Emulador de PC Baseado em Wine",
+    size: "495 MB",
+    version: "v2.8.3",
+    image: "/https://static.wikia.nocookie.net/logo_editing/images/5/50/Winlator.webp/revision/latest/thumbnail/width/360/height/360?cb=20260107033101",
+    downloadUrl: "https://github.com/StevenMXZ/Winlator-Ludashi/releases/"
   },
   {
     id: 2,
-    title: "SoundWave Studio",
-    description: "Producao musical completa com plugins integrados",
-    size: "1.2 GB",
-    version: "v3.8.0",
-    image: "/images/app-2.jpg",
+    title: "Gamehub",
+    description: "Emulador de PC com mais opções de desempenho incluindo steam",
+    size: "186 MB",
+    version: "V5",
+    image: "/https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmbUkckWgwvzQoSkghgCusPzCFipDkb58ELzvfUfHOPOvF7nLs4YzLvPWr&s=10",
+    downloadUrl: "https://gamehub.xiaoji.com/"
   },
   {
     id: 3,
-    title: "CodeBridge IDE",
-    description: "Ambiente de desenvolvimento com IA integrada",
-    size: "450 MB",
-    version: "v2.1.5",
-    image: "/images/app-3.jpg",
-  },
-  {
-    id: 4,
-    title: "PixelCraft Design",
-    description: "Design grafico e edicao de fotos avancada",
-    size: "720 MB",
-    version: "v5.0.3",
-    image: "/images/app-4.jpg",
+    title: "VoidX",
+    description: "Aplicativo Para otimizar seu dispositivo usando adb",
+    size: "5MB",
+    version: "v1.3",
+    image: "/https://i.ibb.co/RTNTz3mP/In-Shot-20260105-184553111.jpg",
+    downloadUrl: "https://github.com/YTDvidPojavBr/VoidX/releases/tag/1.3"
   },
 ]
 

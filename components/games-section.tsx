@@ -24,6 +24,7 @@ export function GamesSection() {
             Os melhores jogos para download direto
           </p>
         </div>
+
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {games.map((game) => (
             <GameCard key={game.id} game={game} />
@@ -49,19 +50,30 @@ function GameCard({
           className="object-cover transition-transform duration-300 group-hover:scale-105"
         />
       </div>
+
       <div className="p-4">
         <h3 className="font-[family-name:var(--font-heading)] text-lg font-semibold text-foreground">
           {game.title}
         </h3>
+
         <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
           {game.description}
         </p>
+
         <div className="mt-4 flex items-center justify-between">
-          <span className="text-xs text-muted-foreground">{game.size}</span>
-          <button className="flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-80">
+          <span className="text-xs text-muted-foreground">
+            {game.size}
+          </span>
+
+          <a
+            href={game.downloadUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-80"
+          >
             <Download className="h-4 w-4" />
             Download
-          </button>
+          </a>
         </div>
       </div>
     </div>

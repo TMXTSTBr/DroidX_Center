@@ -65,9 +65,4 @@ function GameCard({
       </div>
     </div>
   )
-}          </button>
-        </div>
-      </div>
-    </div>
-  )
 }

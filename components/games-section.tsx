@@ -8,9 +8,8 @@ const games = [
     description: "Fuja de Um Professor Maluco",
     size: "42Mb",
     image: "/images/baldis.jpg",
-  },
-  {
-]:
+  }
+]
 
 export function GamesSection() {
   return (
@@ -62,6 +61,11 @@ function GameCard({
             <Download className="h-4 w-4" />
             Download
           </button>
+        </div>
+      </div>
+    </div>
+  )
+}          </button>
         </div>
       </div>
     </div>

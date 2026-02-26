@@ -12,8 +12,8 @@ export function HeroSection() {
         </p>
         <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-3">
           <StatCard icon={<Gamepad2 className="h-6 w-6" />} label="Jogos de PC" count="1+" />
-          <StatCard icon={<AppWindow className="h-6 w-6" />} label="Aplicativos" count="85+" />
-          <StatCard icon={<FileArchive className="h-6 w-6" />} label="Arquivos" count="200+" />
+          <StatCard icon={<AppWindow className="h-6 w-6" />} label="Aplicativos" count="2" />
+          <StatCard icon={<FileArchive className="h-6 w-6" />} label="Arquivos" count="9" />
         </div>
         <div className="mt-10 flex items-center justify-center gap-3">
           <Download className="h-4 w-4 text-muted-foreground" />

@@ -8,6 +8,7 @@ const games = [
     description: "Fuja de Um Professor Maluco",
     size: "42Mb",
     image: "/images/baldis.jpg",
+    downloadUrl: "https://gamejolt.com/get/build?game=342754&build=710261"
   }
 ]
 
